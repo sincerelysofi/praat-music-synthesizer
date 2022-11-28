@@ -28,10 +28,10 @@ The available instruments are:
 ### Score
 Each line contains the instructions for one channel, followed by a line for the next channel and so on. Once there is a line for each channel, the following line is treated as the next measure. Lines beginning with the pound sign ```#``` and blank lines are ignored.
 
-Each line contains a tab-delimited series of notes in the following format:
-* Tone - Tones can be A, B, C, D, E, F or G and may be followed by a # to represent a sharp.
-* Octave - The octave the tone comes from, i.e. A4 = 440 Hz.
-* Duration - Presents the fraction of a note, i.e. 4 = quarter note, 8 = eighth note.
+Each line contains a tab-delimited series of notes. Each note is represented in a space-delimited format as follows:
+* Tone - Tones can be ```A```, ```B```, ```C```, ```D```, ```E```, ```F``` or ```G``` and may be immediately followed by a ```#``` to represent a sharp.
+* Octave - The octave the tone comes from, i.e. ```4``` with an A before it = 440 Hz.
+* Duration - Presents the fraction of a note, i.e. ```4``` = quarter note, ```8``` = eighth note.
 
 Alternatively, a note may be a rest in the following format:
 * ```R``` - Indicating rest
